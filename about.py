@@ -5,7 +5,9 @@ import os
 
 
 class about:
-
+    '''
+    This class generates the aspects of the game, whether it crashes or not.
+    '''
     def make(self, gameDisplay, sound):
         check = 0
         myimage = pygame.image.load("images/me.jpg").convert()
