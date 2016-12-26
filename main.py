@@ -36,7 +36,10 @@ from rules import *
 
 
 class game:
-
+    '''
+    This class provides the main menu of the game. 
+    This lets you select the option to either create a new game, or to continue a previous one.
+    '''
     def make(self):
         pygame.init()
         sound = True
